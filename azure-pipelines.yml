@@ -27,7 +27,7 @@ steps:
     python3 -m pytest tests
   displayName: "Run test"
 
-- script: docker pull opennetlab.azurecr.io/challenge-env
+- script: docker pull newdemo111.azurecr.io/challenge-env
   displayName: 'Get challenge environment'
 
 - script: |
